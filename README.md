@@ -56,7 +56,7 @@ Ignored fields: (if they are included, they should be correct)
 * archiveId
 * eprint
 * month
-  * url
+* url
 * isbn
 * issn
 * abstract

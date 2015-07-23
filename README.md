@@ -6,7 +6,7 @@ It is intended to be used with some modern bibstyle which displays DOI and arxiv
 project initiated in July 2015
 by Christian Schaffner and Filippos Vogiatzian
 
-feel free to use, pull requests are strongly encouraged!
+feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 
 
 ###Repository contents:

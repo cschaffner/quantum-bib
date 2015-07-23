@@ -4,7 +4,7 @@ A clean and comprehensive bibtex-file containing the most important papers in qu
 It is intended to be used with some modern bibstyle which displays DOI and arxiv hyperlinks (two such styles created by Marco Tomamichel are included). **The spirit is to keep the displayed information rather minimal, but provide a working hyperlink instead.**
 
 project initiated in July 2015
-by Christian Schaffner and Filippos Vogiatzian
+by Christian Schaffner
 
 feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 

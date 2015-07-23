@@ -82,7 +82,8 @@ Ignored fields: (if they are included, they should be correct)
   ISBN                     = {9783642290107},
   ISSN                     = {03029743},
   Url                      = {http://link.springer.com/10.1007/978-3-642-29011-4\_10}
-}```
+}
+```
 
 Required fields:
 * author

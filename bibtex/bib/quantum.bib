@@ -1,4 +1,4 @@
-% This file was created with JabRef 2.10.
+% This file was created with JabRef 2.11b3.
 % Encoding: UTF-8
 
 
@@ -24,6 +24,19 @@
   Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6670761}
 }
 
+@Article{Blu83,
+  Title                    = {Coin flipping by telephone a protocol for solving impossible problems},
+  Author                   = {Blum, Manuel},
+  Journal                  = {ACM SIGACT News},
+  Year                     = {1983},
+  Number                   = {1},
+  Pages                    = {23--27},
+  Volume                   = {15},
+
+  Doi                      = {10.1145/1008908.1008911},
+  Publisher                = {ACM}
+}
+
 @InProceedings{BDF+11,
   Title                    = {{Random Oracles in a Quantum World}},
   Author                   = {Boneh, Dan and Dagdelen, \"{O}zg\"{u}r and Fischlin, Marc and Lehmann, Anja and Schaffner, Christian and Zhandry, Mark},
@@ -44,7 +57,7 @@
 @InProceedings{BZ13,
   Title                    = {{Secure Signatures and Chosen Ciphertext Security in a Quantum Computing World}},
   Author                   = {Boneh, Dan and Zhandry, Mark},
-  Booktitle                = {Advances in Cryptology – CRYPTO 2013},
+  Booktitle                = {Advances in Cryptology - CRYPTO 2013},
   Year                     = {2013},
   Pages                    = {361--379},
   Publisher                = {Springer},
@@ -125,22 +138,6 @@
   Url                      = {http://arxiv.org/abs/quant-ph/9712023}
 }
 
-@Misc{BHT97,
-  Title                    = {{Quantum Algorithm for the Collision Problem}},
-
-  Author                   = {Brassard, Gilles and H{\o}yer, Peter and Tapp, Alain},
-  HowPublished             = {arXiv:quant-ph/9705002},
-  Year                     = {1997},
-
-  Abstract                 = {In this note, we give a quantum algorithm that finds collisions in arbitrary r-to-one functions after only O((N/r)\^{}(1/3)) expected evaluations of the function. Assuming the function is given by a black box, this is more efficient than the best possible classical algorithm, even allowing probabilism. We also give a similar algorithm for finding claws in pairs of functions. Furthermore, we exhibit a space-time tradeoff for our technique. Our approach uses Grover's quantum searching algorithm in a novel way.},
-  Archiveprefix            = {arXiv},
-  Arxivid                  = {quant-ph/9705002},
-  Eprint                   = {9705002},
-  Pages                    = {8},
-  Primaryclass             = {quant-ph},
-  Url                      = {http://arxiv.org/abs/quant-ph/9705002}
-}
-
 @Misc{BJ14arxiv,
   Title                    = {{Quantum homomorphic encryption for circuits of low \$T\$-gate complexity}},
 
@@ -165,6 +162,34 @@
   Series                   = {LNCS},
 
   Doi                      = {10.1007/BFb0052243}
+}
+
+@InProceedings{CK09,
+  Title                    = {Optimal Quantum Strong Coin Flipping},
+  Author                   = {Andr{\'{e}} Chailloux and Iordanis Kerenidis},
+  Booktitle                = {50th Annual {IEEE} Symposium on Foundations of Computer Science - FOCS 2009},
+  Year                     = {2009},
+  Pages                    = {527--533},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/focs/ChaillouxK09},
+  Doi                      = {10.1109/FOCS.2009.71},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 16 Dec 2014 09:57:21 +0100},
+  Url                      = {http://dx.doi.org/10.1109/FOCS.2009.71}
+}
+
+@InProceedings{CK11,
+  Title                    = {Optimal Bounds for Quantum Bit Commitment},
+  Author                   = {Andr{\'{e}} Chailloux and Iordanis Kerenidis},
+  Booktitle                = {52nd Annual Symposium on Foundations of Computer Science - FOCS 2011},
+  Year                     = {2011},
+  Pages                    = {354--362},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/focs/ChaillouxK11},
+  Doi                      = {10.1109/FOCS.2011.42},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 16 Dec 2014 09:57:23 +0100},
+  Url                      = {http://dx.doi.org/10.1109/FOCS.2011.42}
 }
 
 @Article{CDP+13,
@@ -231,6 +256,25 @@
   Url                      = {http://arxiv.org/abs/quant-ph/0612014 http://link.springer.com/10.1007/978-3-540-74143-5\_20}
 }
 
+@InProceedings{DFSS07,
+  Title                    = {{Secure Identification and QKD in the Bounded-Quantum-Storage Model}},
+  Author                   = {Damg{\aa}rd, Ivan B. and Fehr, Serge and Salvail, Louis and Schaffner, Christian},
+  Booktitle                = {Advances in Cryptology - CRYPTO 2007},
+  Year                     = {2007},
+  Pages                    = {342--359},
+  Publisher                = {Springer},
+  Series                   = {LNCS},
+
+  Abstract                 = {We consider the problem of secure identification: user U proves to server S that he knows an agreed (possibly low-entropy) password w, while giving away as little information on w as possible, namely the adversary can exclude at most one possible password for each execution of the scheme. We propose a solution in the bounded-quantum-storage model, where U and S may exchange qubits, and a dishonest party is assumed to have limited quantum memory. No other restriction is posed upon the adversary. An improved version of the proposed identification scheme is also secure against a man-in-the-middle attack, but requires U and S to additionally share a high-entropy key k. However, security is still guaranteed if one party loses k to the attacker but notices the loss. In both versions of the scheme, the honest participants need no quantum memory, and noise and imperfect quantum sources can be tolerated. The schemes compose sequentially, and w and k can securely be re-used. A small modification to the identification scheme results in a quantum-key-distribution (QKD) scheme, secure in the bounded-quantum-storage model, with the same re-usability properties of the keys, and without assuming authenticated channels. This is in sharp contrast to known QKD schemes (with unbounded adversary) without authenticated channels, where authentication keys must be updated, and unsuccessful executions can cause the parties to run out of keys.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {0708.2557},
+  Doi                      = {10.1007/978-3-540-74143-5\_19},
+  Eprint                   = {0708.2557},
+  ISBN                     = {978-3-540-74142-8},
+  ISSN                     = {03029743},
+  Url                      = {http://arxiv.org/abs/0708.2557 http://link.springer.com/10.1007/978-3-540-74143-5\_19}
+}
+
 @Article{DFSS08,
   Title                    = {{Cryptography in the Bounded-Quantum-Storage Model}},
   Author                   = {Damg{\aa}rd, Ivan B. and Fehr, Serge and Salvail, Louis and Schaffner, Christian},
@@ -250,25 +294,6 @@
   ISSN                     = {0097-5397},
   Publisher                = {SIAM},
   Url                      = {http://arxiv.org/abs/0709.0289 http://epubs.siam.org/doi/abs/10.1137/060651343}
-}
-
-@InProceedings{DFSS07,
-  Title                    = {{Secure Identification and QKD in the Bounded-Quantum-Storage Model}},
-  Author                   = {Damg{\aa}rd, Ivan B. and Fehr, Serge and Salvail, Louis and Schaffner, Christian},
-  Booktitle                = {Advances in Cryptology - CRYPTO 2007},
-  Year                     = {2007},
-  Pages                    = {342--359},
-  Publisher                = {Springer},
-  Series                   = {LNCS},
-
-  Abstract                 = {We consider the problem of secure identification: user U proves to server S that he knows an agreed (possibly low-entropy) password w, while giving away as little information on w as possible, namely the adversary can exclude at most one possible password for each execution of the scheme. We propose a solution in the bounded-quantum-storage model, where U and S may exchange qubits, and a dishonest party is assumed to have limited quantum memory. No other restriction is posed upon the adversary. An improved version of the proposed identification scheme is also secure against a man-in-the-middle attack, but requires U and S to additionally share a high-entropy key k. However, security is still guaranteed if one party loses k to the attacker but notices the loss. In both versions of the scheme, the honest participants need no quantum memory, and noise and imperfect quantum sources can be tolerated. The schemes compose sequentially, and w and k can securely be re-used. A small modification to the identification scheme results in a quantum-key-distribution (QKD) scheme, secure in the bounded-quantum-storage model, with the same re-usability properties of the keys, and without assuming authenticated channels. This is in sharp contrast to known QKD schemes (with unbounded adversary) without authenticated channels, where authentication keys must be updated, and unsuccessful executions can cause the parties to run out of keys.},
-  Archiveprefix            = {arXiv},
-  Arxivid                  = {0708.2557},
-  Doi                      = {10.1007/978-3-540-74143-5\_19},
-  Eprint                   = {0708.2557},
-  ISBN                     = {978-3-540-74142-8},
-  ISSN                     = {03029743},
-  Url                      = {http://arxiv.org/abs/0708.2557 http://link.springer.com/10.1007/978-3-540-74143-5\_19}
 }
 
 @Article{DFW15,
@@ -293,6 +318,21 @@
   Url                      = {http://arxiv.org/abs/1305.1316 http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6967820}
 }
 
+@InProceedings{DM04,
+  Title                    = {{On Generating the Initial Key in the Bounded-Storage Model}},
+  Author                   = {Dziembowski, Stefan and Maurer, Ueli},
+  Booktitle                = {Advances in Cryptology - EUROCRYPT 2004},
+  Year                     = {2004},
+  Pages                    = {126--137},
+  Publisher                = {Springer},
+  Series                   = {LNCS},
+  Volume                   = {3027},
+
+  Doi                      = {10.1007/978-3-540-24676-3\_8},
+  ISSN                     = {03029743},
+  Url                      = {http://www.iacr.org/cryptodb/archive/2004/EUROCRYPT/2323/2323.pdf http://link.springer.com/10.1007/978-3-540-24676-3\_8}
+}
+
 @Article{DM08,
   Title                    = {{The Bare Bounded-Storage Model: The Tight Bound on the Storage Requirement for Key Agreement}},
   Author                   = {Dziembowski, Stefan and Maurer, Ueli},
@@ -310,21 +350,6 @@
   Keywords                 = {Bounded-storage model (BSM),Cryptography,Information-theoretic security,Key agreement,Lower bounds},
   Publisher                = {IEEE},
   Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4529270}
-}
-
-@InProceedings{DM04,
-  Title                    = {{On Generating the Initial Key in the Bounded-Storage Model}},
-  Author                   = {Dziembowski, Stefan and Maurer, Ueli},
-  Booktitle                = {Advances in Cryptology - EUROCRYPT 2004},
-  Year                     = {2004},
-  Pages                    = {126--137},
-  Publisher                = {Springer},
-  Series                   = {LNCS},
-  Volume                   = {3027},
-
-  Doi                      = {10.1007/978-3-540-24676-3\_8},
-  ISSN                     = {03029743},
-  Url                      = {http://www.iacr.org/cryptodb/archive/2004/EUROCRYPT/2323/2323.pdf http://link.springer.com/10.1007/978-3-540-24676-3\_8}
 }
 
 @Article{ENG+14,
@@ -348,6 +373,25 @@
   Pmid                     = {24618984},
   Publisher                = {Nature Publishing Group},
   Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/24618984}
+}
+
+@InProceedings{FKS+13,
+  Title                    = {Feasibility and Completeness of Cryptographic Tasks in the Quantum World},
+  Author                   = {Serge Fehr and Jonathan Katz and Fang Song and Hong{-}Sheng Zhou and Vassilis Zikas},
+  Booktitle                = {Theory of Cryptography - TCC 2013},
+  Year                     = {2013},
+  Pages                    = {281--296},
+  Publisher                = {Springer},
+  Series                   = {LNCS},
+  Volume                   = {7785},
+
+  __markedentry            = {[chris:]},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/tcc/FehrKSZZ13},
+  Doi                      = {10.1007/978-3-642-36594-2_16},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 02 Jul 2013 07:52:59 +0200},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-36594-2_16}
 }
 
 @Article{FG99,
@@ -415,7 +459,7 @@ quantum-cryptographic protocols},
 
   Address                  = {New York, New York, USA},
   Pages                    = {212--219},
-  Publisher                = {ACM Press},
+  Publisher                = {ACM},
 
   Abstract                 = {Consider the problem of estimating the median of N items to a precision epsilon, i.e., the estimate should be such that, with a high probability, the number of items, with values both smaller than and larger than this estimate, is less than N*(1+epsilon)/2. Any classical algorithm to do this will need at least O(1/epsilon\^{}2) samples. Quantum mechanical systems can simultaneously carry out multiple computations due to their wave like properties. This paper describes an O(1/epsilon) step algorithm for the above estimation.},
   Archiveprefix            = {arXiv},
@@ -466,6 +510,17 @@ quantum-cryptographic protocols},
   Publisher                = {IEEE}
 }
 
+@Misc{Kit03,
+  Title                    = {Quantum Coin Flipping},
+
+  Author                   = {Kitaev, Alexei},
+  Note                     = {Talk at the 6th workshop on Quantum Information Processing - QIP 2003},
+  Year                     = {2003},
+
+  Owner                    = {chris},
+  Timestamp                = {2015.07.24}
+}
+
 @InProceedings{Liu15,
   Title                    = {{Privacy Amplification in the Isolated Qubits Model}},
   Author                   = {Liu, Yi-Kai},
@@ -494,7 +549,7 @@ quantum-cryptographic protocols},
 
   Address                  = {New York, New York, USA},
   Pages                    = {269--286},
-  Publisher                = {{ACM}},
+  Publisher                = {ACM},
 
   Archiveprefix            = {arXiv},
   Arxivid                  = {1304.5007v2},
@@ -579,6 +634,21 @@ quantum-cryptographic protocols},
   Url                      = {http://link.springer.com/10.1007/BF00191321}
 }
 
+@Article{May96,
+  Title                    = {{The Trouble with Quantum Bit Commitment}},
+  Author                   = {Mayers, Dominic},
+  Journal                  = {arXiv preprint quant-ph/9603015},
+  Year                     = {1996},
+  Pages                    = {12},
+
+  Abstract                 = {In a recent paper, Lo and Chau explain how to break a family of quantum bit commitment schemes, and they claim that their attack applies to the 1993 protocol of Brassard, Cr$\backslash$'epeau, Jozsa and Langlois (BCJL). The intuition behind their attack is correct, and indeed they expose a weakness common to all proposals of a certain kind, but the BCJL protocol does not fall in this category. Nevertheless, it is true that the BCJL protocol is insecure, but the required attack and proof are more subtle. Here we provide the first complete proof that the BCJL protocol is insecure.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {quant-ph/9603015},
+  Eprint                   = {9603015},
+  Primaryclass             = {quant-ph},
+  Url                      = {http://arxiv.org/abs/quant-ph/9603015}
+}
+
 @Article{May97,
   Title                    = {{Unconditionally Secure Quantum Bit Commitment is Impossible}},
   Author                   = {Mayers, Dominic},
@@ -600,21 +670,6 @@ quantum-cryptographic protocols},
   Url                      = {http://arxiv.org/abs/quant-ph/9605044 http://link.aps.org/doi/10.1103/PhysRevLett.78.3414}
 }
 
-@Article{May96,
-  Title                    = {{The Trouble with Quantum Bit Commitment}},
-  Author                   = {Mayers, Dominic},
-  Journal                  = {arXiv preprint quant-ph/9603015},
-  Year                     = {1996},
-  Pages                    = {12},
-
-  Abstract                 = {In a recent paper, Lo and Chau explain how to break a family of quantum bit commitment schemes, and they claim that their attack applies to the 1993 protocol of Brassard, Cr$\backslash$'epeau, Jozsa and Langlois (BCJL). The intuition behind their attack is correct, and indeed they expose a weakness common to all proposals of a certain kind, but the BCJL protocol does not fall in this category. Nevertheless, it is true that the BCJL protocol is insecure, but the required attack and proof are more subtle. Here we provide the first complete proof that the BCJL protocol is insecure.},
-  Archiveprefix            = {arXiv},
-  Arxivid                  = {quant-ph/9603015},
-  Eprint                   = {9603015},
-  Primaryclass             = {quant-ph},
-  Url                      = {http://arxiv.org/abs/quant-ph/9603015}
-}
-
 @Article{McE78,
   Title                    = {{A public-key cryptosystem based on algebraic coding theory}},
   Author                   = {McEliece, R. J.},
@@ -626,6 +681,19 @@ quantum-cryptographic protocols},
 
   Abstract                 = {A public-key cryptosystem which appears quite secure while at the same time allowing extremely rapid data rates, is constructed for use in multi-user communication networks, such as those envisioned by NASA for the distribution of space-acquired data.},
   Url                      = {http://www.cs.colorado.edu/~jrblack/class/csci7000/f03/papers/mceliece.pdf}
+}
+
+@Misc{Moc07,
+  Title                    = {{Quantum weak coin flipping with arbitrarily small bias}},
+
+  Author                   = {{Mochon}, Carlos},
+  Year                     = {2007},
+
+  Adsnote                  = {Provided by the SAO/NASA Astrophysics Data System},
+  Adsurl                   = {http://adsabs.harvard.edu/abs/2007arXiv0711.4114M},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {0711.4114},
+  Primaryclass             = {quant-ph}
 }
 
 @Article{NJM+12,
@@ -729,6 +797,25 @@ quantum-cryptographic protocols},
   Url                      = {http://dx.doi.org/10.1140/epjd/e2010-00103-y}
 }
 
+@InProceedings{Unr10,
+  Title                    = {Universally Composable Quantum Multi-party Computation},
+  Author                   = {Dominique Unruh},
+  Booktitle                = {Advances in Cryptology - EUROCRYPT 2010},
+  Year                     = {2010},
+  Pages                    = {486--505},
+  Publisher                = {Springer},
+  Series                   = {LNCS},
+  Volume                   = {6110},
+
+  __markedentry            = {[chris:6]},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/eurocrypt/Unruh10},
+  Doi                      = {10.1007/978-3-642-13190-5_25},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 08 Jun 2010 09:21:44 +0200},
+  Url                      = {http://dx.doi.org/10.1007/978-3-642-13190-5_25}
+}
+
 @InProceedings{Unr12,
   Title                    = {{Quantum Proofs of Knowledge}},
   Author                   = {Unruh, Dominique},
@@ -762,7 +849,7 @@ quantum-cryptographic protocols},
 
   Address                  = {New York, New York, USA},
   Pages                    = {60--67},
-  Publisher                = {{ACM}},
+  Publisher                = {ACM},
 
   Abstract                 = {In this paper we give a polynomial-time quantum algorithm for computing orders of solvable groups. Several other problems, such as testing membership in solvable groups, testing equality of subgroups in a given solvable group, and testing normality of a subgroup in a given solvable group, reduce to computing orders of solvable groups and therefore admit polynomial-time quantum algorithms as well. Our algorithm works in the setting of black-box groups, wherein none of these problems can be computed classically in polynomial time. As an important byproduct, our algorithm is able to produce a pure quantum state that is uniform over the elements in any chosen subgroup of a solvable group, which yields a natural way to apply existing quantum algorithms to factor groups of solvable groups.},
   Archiveprefix            = {arXiv},
@@ -773,6 +860,21 @@ quantum-cryptographic protocols},
   ISSN                     = {07349025},
   Primaryclass             = {quant-ph},
   Url                      = {http://arxiv.org/abs/quant-ph/0011023 http://portal.acm.org/citation.cfm?doid=380752.380759}
+}
+
+@InProceedings{Wat06,
+  Title                    = {Zero-knowledge against quantum attacks},
+  Author                   = {John Watrous},
+  Booktitle                = {38th Annual {ACM} Symposium on Theory of Computing},
+  Year                     = {2006},
+  Pages                    = {296--305},
+  Publisher                = {ACM},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/stoc/Watrous06},
+  Doi                      = {10.1145/1132516.1132560},
+  Owner                    = {chris},
+  Timestamp                = {Thu, 28 Sep 2006 09:38:26 +0200},
+  Url                      = {http://doi.acm.org/10.1145/1132516.1132560}
 }
 
 @Article{WCS+10,
@@ -856,6 +958,21 @@ quantum-cryptographic protocols},
   ISSN                     = {0272-5428},
   Primaryclass             = {0272-5428},
   Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4568388}
+}
+
+@InProceedings{Zha12,
+  Title                    = {How to Construct Quantum Random Functions},
+  Author                   = {Mark Zhandry},
+  Booktitle                = {53rd Annual Symposium on Foundations of Computer Science - FOCS 2012},
+  Year                     = {2012},
+  Pages                    = {679--687},
+  Publisher                = {IEEE},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/focs/Zhandry12},
+  Doi                      = {10.1109/FOCS.2012.37},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 16 Dec 2014 09:57:21 +0100},
+  Url                      = {http://dx.doi.org/10.1109/FOCS.2012.37}
 }
 
 @Book{BBD09,

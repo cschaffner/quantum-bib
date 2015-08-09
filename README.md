@@ -10,8 +10,11 @@ feel free to use, [pull requests](https://help.github.com/articles/using-pull-re
 
 ###Install:
 In order to contribute to the repository, follow these steps:
-1. [fork](https://help.github.com/articles/.../) the github repository by clicking on `fork`
-2. [check out]() the repository into the directory where your .tex files are located
+1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
+2. [clone]() the repository into the directory where your .tex files are located
+```
+git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
+```
 3. include the following in your main tex-file:
 ```
 \bibliographystyle{bibtex/bst/alphaarxiv}
@@ -20,7 +23,9 @@ In order to contribute to the repository, follow these steps:
 4. you can add new references to `/bibtex/bib/quantum.bib`, using [jabref]() or any text editor.
 5. commit your changes
 ```
-?  quantum-bib git:(master) ? 
+?  quantum-bib git:(master) ? git add bibtex/bib/quantum.bib
+?  quantum-bib git:(master) ? git commit -m 'added references'
+6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
 
 ###Repository contents:
 - `/bibtex/bib/quantum.bib`  contains the bib entries

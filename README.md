@@ -9,9 +9,9 @@ by Christian Schaffner
 feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 
 ###Install:
-In order to contribute to the repository, follow these steps:
+#Use the repository
 1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
-2. [clone]() the repository into the directory where your .tex files are located
+2. [clone](https://help.github.com/articles/cloning-a-repository) the repository into the directory where your .tex files are located
 ```
 git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
 ```
@@ -20,12 +20,30 @@ git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
 \bibliographystyle{bibtex/bst/alphaarxiv}
 \bibliography{bibtex/bib/quantum}
 ```
-4. you can add new references to `/bibtex/bib/quantum.bib`, using [jabref]() or any text editor.
+Congrats, you can now properly compile your .tex files as usual:
+```
+~/mypaper>pdflatex mypaper
+~/mypaper>bibtex mypaper
+~/mypaper>pdflatex mypaper
+~/mypaper>pdflatex mypaper
+```
+
+#Contribute to the repository
+4. add new references to `/bibtex/bib/quantum.bib`, using [jabref](http://jabref.sourceforge.net/) or any text editor.
 5. commit your changes
 ```
-?  quantum-bib git:(master) ? git add bibtex/bib/quantum.bib
-?  quantum-bib git:(master) ? git commit -m 'added references'
+~/mypaper $ git add bibtex/bib/quantum.bib
+~/mypaper $ git commit -m 'added references'
+```
 6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
+
+#Configure a remote for your fork
+Follow [these instructions](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
+```
+$ git remote add upstream https://github.com/cschaffner/quantum-bib.git
+```
+You can now [sync](https://help.github.com/articles/syncing-a-fork/) other people's changes with your fork. 
+
 
 ###Repository contents:
 - `/bibtex/bib/quantum.bib`  contains the bib entries

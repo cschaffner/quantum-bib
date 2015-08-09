@@ -8,6 +8,19 @@ by Christian Schaffner
 
 feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 
+###Install:
+In order to contribute to the repository, follow these steps:
+1. [fork](https://help.github.com/articles/.../) the github repository by clicking on `fork`
+2. [check out]() the repository into the directory where your .tex files are located
+3. include the following in your main tex-file:
+```
+\bibliographystyle{bibtex/bst/alphaarxiv}
+\bibliography{bibtex/bib/quantum}
+```
+4. you can add new references to `/bibtex/bib/quantum.bib`, using [jabref]() or any text editor.
+5. commit your changes
+```
+?  quantum-bib git:(master) ? 
 
 ###Repository contents:
 - `/bibtex/bib/quantum.bib`  contains the bib entries

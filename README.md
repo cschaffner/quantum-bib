@@ -12,14 +12,16 @@ feel free to use, [pull requests](https://help.github.com/articles/using-pull-re
 ####Use the repository
 1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
 2. [clone](https://help.github.com/articles/cloning-a-repository) the repository into the directory where your .tex files are located
-```
-~/mypaper> git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
-```
+
+   ```
+   ~/mypaper> git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
+   ```
 3. include the following in your main tex-file:
-```
-\bibliographystyle{bibtex/bst/alphaarxiv}
-\bibliography{bibtex/bib/quantum}
-```
+
+   ```
+   \bibliographystyle{quantum-bib/bibtex/bst/alphaarxiv}
+   \bibliography{quantum-bib/bibtex/bib/quantum}
+   ```
 Congrats, you can now properly compile your .tex files as usual:
 ```
 ~/mypaper> pdflatex mypaper
@@ -29,12 +31,13 @@ Congrats, you can now properly compile your .tex files as usual:
 ```
 
 ####Contribute to the repository
-4. add new references to `/bibtex/bib/quantum.bib`, using [jabref](http://jabref.sourceforge.net/) or any text editor.
+4. add new references to `quantum-bib/bibtex/bib/quantum.bib`, using [jabref](http://jabref.sourceforge.net/) or any text editor.
 5. commit your changes
-```
-~/mypaper $ git add bibtex/bib/quantum.bib
-~/mypaper $ git commit -m 'added references'
-```
+
+  ```
+  ~/mypaper $ git add quantum-bib/bibtex/bib/quantum.bib
+  ~/mypaper $ git commit -m 'added references'
+  ```
 6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
 
 ####Configure a remote for your fork

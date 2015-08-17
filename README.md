@@ -10,11 +10,13 @@ feel free to use, [pull requests](https://help.github.com/articles/using-pull-re
 
 ##Install instructions
 ####Use the repository
-1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
+The following assumes you have a personal github account and you are logged in.
+
+1. [fork](https://help.github.com/articles/fork-a-repo) this github repository by clicking on `fork` (in the top right corner of your screen)
 2. [clone](https://help.github.com/articles/cloning-a-repository) the repository into the directory where your .tex files are located
 
    ```
-   ~/mypaper> git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
+   ~/mypaper> git clone https://github.com/YOUR_GITHUB_USERNAME/quantum-bib.git
    ```
 3. include the following in your main tex-file:
 

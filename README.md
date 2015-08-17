@@ -8,12 +8,12 @@ by Christian Schaffner
 
 feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 
-###Install:
-#Use the repository
+##Install:
+####Use the repository
 1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
 2. [clone](https://help.github.com/articles/cloning-a-repository) the repository into the directory where your .tex files are located
 ```
-git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
+~/mypaper> git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
 ```
 3. include the following in your main tex-file:
 ```
@@ -22,13 +22,13 @@ git clone https://github.com/GITHUB_USERNAME/quantum-bib.git
 ```
 Congrats, you can now properly compile your .tex files as usual:
 ```
-~/mypaper>pdflatex mypaper
-~/mypaper>bibtex mypaper
-~/mypaper>pdflatex mypaper
-~/mypaper>pdflatex mypaper
+~/mypaper> pdflatex mypaper
+~/mypaper> bibtex mypaper
+~/mypaper> pdflatex mypaper
+~/mypaper> pdflatex mypaper
 ```
 
-#Contribute to the repository
+####Contribute to the repository
 4. add new references to `/bibtex/bib/quantum.bib`, using [jabref](http://jabref.sourceforge.net/) or any text editor.
 5. commit your changes
 ```
@@ -37,7 +37,7 @@ Congrats, you can now properly compile your .tex files as usual:
 ```
 6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
 
-#Configure a remote for your fork
+####Configure a remote for your fork
 Follow [these instructions](https://help.github.com/articles/configuring-a-remote-for-a-fork/)
 ```
 $ git remote add upstream https://github.com/cschaffner/quantum-bib.git
@@ -45,7 +45,7 @@ $ git remote add upstream https://github.com/cschaffner/quantum-bib.git
 You can now [sync](https://help.github.com/articles/syncing-a-fork/) other people's changes with your fork. 
 
 
-###Repository contents:
+##Repository contents:
 - `/bibtex/bib/quantum.bib`  contains the bib entries
 
 - `test.tex` a tex file for testing all references

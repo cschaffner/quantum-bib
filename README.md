@@ -8,7 +8,7 @@ by Christian Schaffner
 
 feel free to use, [pull requests](https://help.github.com/articles/using-pull-requests/) are strongly encouraged!
 
-##Install:
+##Install instructions
 ####Use the repository
 1. [fork](https://help.github.com/articles/fork-a-repo) the github repository by clicking on `fork`
 2. [clone](https://help.github.com/articles/cloning-a-repository) the repository into the directory where your .tex files are located
@@ -22,6 +22,7 @@ feel free to use, [pull requests](https://help.github.com/articles/using-pull-re
    \bibliographystyle{quantum-bib/bibtex/bst/alphaarxiv}
    \bibliography{quantum-bib/bibtex/bib/quantum}
    ```
+
 Congrats, you can now properly compile your .tex files as usual:
 ```
 ~/mypaper> pdflatex mypaper

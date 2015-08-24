@@ -2,10 +2,31 @@
 % Encoding: UTF-8
 
 
+@InProceedings{BCG+,
+  Title                    = {Authentication of Quantum Messages},
+  Author                   = {Howard Barnum and Claude Cr{\'e}peau and Daniel Gottesman and Adam Smith and Alain Tapp},
+  Booktitle                = {43rd Symposium on Foundations of Computer Science - FOCS 2002},
+  Year                     = {2002},
+  Pages                    = {449--458},
+  Publisher                = {IEEE},
+
+  Abstract                 = {Authentication is a well-studied area of classical cryptography: a sender A and a receiver B sharing a classical secret key want to exchange a classical message with the guarantee that the message has not been modified or replaced by a dishonest party with control of the communication line. In this paper we study the authentication of messages composed of quantum states. We give a formal definition of authentication in the quantum setting. Assuming A and B have access to an insecure quantum channel and share a secret, classical random key, we provide a non-interactive scheme that enables A to both encrypt and authenticate an m qubit message by encoding it into m+s qubits, where the error probability decreases exponentially in the security parameter s. The scheme requires a secret key of size 2m+O(s). To achieve this, we give a highly efficient protocol for testing the purity of shared EPR pairs. It has long been known that learning information about a general quantum state will necessarily disturb it. We refine this result to show that such a disturbance can be done with few side effects, allowing it to circumvent cryptographic protections. Consequently, any scheme to authenticate quantum messages must also encrypt them. In contrast, no such constraint exists classically. This reasoning has two important consequences: It allows us to give a lower bound of 2m key bits for authenticating m qubits, which makes our protocol asymptotically optimal. Moreover, we use it to show that digitally signing quantum states is impossible.},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {quant-ph/0205128},
+  Doi                      = {10.1109/SFCS.2002.1181969},
+  Eprint                   = {0205128},
+  ISBN                     = {0-7695-1822-2},
+  ISSN                     = {0272-5428},
+  Owner                    = {chris},
+  Primaryclass             = {quant-ph},
+  Timestamp                = {2015.08.24},
+  Url                      = {http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=1181969}
+}
+
 @Article{BB84,
   Title                    = {Quantum cryptography: Public key distribution and coin tossing},
   Author                   = {Charles H. Bennett and Gilles Brassard},
-  Journal                  = {IEEE International Conference on Computers, Systems and Signal Processing},
+  Journal                  = {International Conference on Computers, Systems and Signal Processing},
   Year                     = {1984},
   Pages                    = {175--179},
 
@@ -26,6 +47,25 @@
   Doi                      = {10.1016/j.tcs.2014.05.025},
   Timestamp                = {Sun, 21 Dec 2014 11:30:06 +0100},
   Url                      = {http://dx.doi.org/10.1016/j.tcs.2014.05.025}
+}
+
+@InProceedings{BCG+06,
+  Title                    = {{Secure multiparty quantum computation with (only) a strict honest majority}},
+  Author                   = {Ben-Or, Michael and Cr{\'e}peau, Claude and Gottesman, Daniel and Hassidim, Avinatan and Smith, Adam},
+  Booktitle                = {47th Annual Foundations of Computer Science - FOCS 2006},
+  Year                     = {2006},
+  Pages                    = {249--258},
+  Publisher                = {IEEE},
+
+  Abstract                 = {Secret sharing and multiparty computation (also called "secure function evaluation") are fundamental primitives in modern cryptography, allowing a group of mutually distrustful players to perform correct, distributed computations under the sole assumption that some number of them will follow the protocol honestly. This paper investigates how much trust is necessary \$that is, how many players must remain honest - in order for distributed quantum computations to be possible. We present a verifiable quantum secret sharing (VQSS) protocol, and a general secure multiparty quantum computation (MPQC) protocol, which can tolerate any cheaters among n players. Previous protocols for these tasks tolerated lfloor (n - 1)/4 rfloor and lfloor (n - 1)/6 rfloor cheaters, respectively. The threshold we achieve is tight - even in the classical case, "fair" multiparty computation is not possible if any set of n/2 players can cheat. Our protocols rely on approximate quantum error-correcting codes, which can tolerate a larger fraction of errors than traditional, exact codes. We introduce new families of authentication schemes and approximate codes tailored to the needs of our protocols, as well as new state purification techniques along the lines of those used in fault-tolerant quantum circuits},
+  Archiveprefix            = {arXiv},
+  Arxivid                  = {0801.1544},
+  Doi                      = {10.1109/FOCS.2006.68},
+  Eprint                   = {0801.1544},
+  ISBN                     = {0769527205},
+  ISSN                     = {02725428},
+  Owner                    = {chris},
+  Timestamp                = {2015.08.24}
 }
 
 @Article{BFW14,
@@ -119,6 +159,21 @@
   Url                      = {http://link.springer.com/10.1007/978-3-642-35656-8\_3}
 }
 
+@Article{BC96,
+  Title                    = {25 years of quantum cryptography},
+  Author                   = {Brassard, Gilles and Cr{\'e}peau, Claude},
+  Journal                  = {ACM Sigact News},
+  Year                     = {1996},
+  Number                   = {3},
+  Pages                    = {13--24},
+  Volume                   = {27},
+
+  Doi                      = {10.1145/235666.235669},
+  Owner                    = {albraodb},
+  Publisher                = {ACM},
+  Timestamp                = {2015.05.20}
+}
+
 @InProceedings{BC91,
   Title                    = {{Quantum Bit Commitment and Coin Tossing Protocols}},
   Author                   = {Brassard, Gilles and Cr\'{e}peau, Claude},
@@ -187,6 +242,7 @@
   Month                    = {dec},
   Number                   = {25},
   Volume                   = {97},
+
   Doi                      = {10.1103/physrevlett.97.250501},
   Owner                    = {chris},
   Publisher                = {American Physical Society ({APS})},
@@ -265,6 +321,7 @@
   Booktitle                = {50th Annual {IEEE} Symposium on Foundations of Computer Science - FOCS 2009},
   Year                     = {2009},
   Pages                    = {527--533},
+  Publisher                = {IEEE},
 
   Bibsource                = {dblp computer science bibliography, http://dblp.org},
   Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/focs/ChaillouxK09},
@@ -280,6 +337,7 @@
   Booktitle                = {52nd Annual Symposium on Foundations of Computer Science - FOCS 2011},
   Year                     = {2011},
   Pages                    = {354--362},
+  Publisher                = {IEEE},
 
   Bibsource                = {dblp computer science bibliography, http://dblp.org},
   Biburl                   = {http://dblp.uni-trier.de/rec/bib/conf/focs/ChaillouxK11},
@@ -576,6 +634,41 @@
   Url                      = {http://www.ncbi.nlm.nih.gov/pubmed/24618984}
 }
 
+@Article{EGL1985,
+  Title                    = {A randomized protocol for signing contracts},
+  Author                   = {Even, Shimon and Goldreich, Oded and Lempel, Abraham},
+  Journal                  = {Communications of the ACM},
+  Year                     = {1985},
+  Number                   = {6},
+  Pages                    = {637--647},
+  Volume                   = {28},
+
+  Doi                      = {10.1145/3812.3818},
+  Owner                    = {albraodb},
+  Publisher                = {ACM},
+  Timestamp                = {2015.05.20}
+}
+
+@Article{EGL85,
+  Title                    = {A Randomized Protocol for Signing Contracts},
+  Author                   = {Shimon Even and
+ Oded Goldreich and
+ Abraham Lempel},
+  Journal                  = {Commun. {ACM}},
+  Year                     = {1985},
+  Number                   = {6},
+  Pages                    = {637--647},
+  Volume                   = {28},
+
+  __markedentry            = {[chris:6]},
+  Bibsource                = {dblp computer science bibliography, http://dblp.org},
+  Biburl                   = {http://dblp.uni-trier.de/rec/bib/journals/cacm/EvenGL85},
+  Doi                      = {10.1145/3812.3818},
+  Owner                    = {chris},
+  Timestamp                = {Tue, 07 Jun 2011 16:51:42 +0200},
+  Url                      = {http://doi.acm.org/10.1145/3812.3818}
+}
+
 @InProceedings{FKS+13,
   Title                    = {Feasibility and Completeness of Cryptographic Tasks in the Quantum World},
   Author                   = {Serge Fehr and Jonathan Katz and Fang Song and Hong{-}Sheng Zhou and Vassilis Zikas},
@@ -766,6 +859,7 @@ quantum-cryptographic protocols},
   Number                   = {6816},
   Pages                    = {46--52},
   Volume                   = {409},
+
   Doi                      = {10.1038/35051009},
   Owner                    = {chris},
   Publisher                = {Nature Publishing Group},
@@ -1310,7 +1404,7 @@ quantum-cryptographic protocols},
   Pages                    = {052336},
   Volume                   = {81},
 
-  Abstract                 = {The noisy-storage  model allows the implementation of secure two-party protocols under the sole assumption that no large-scale reliable quantum storage is available to the cheating party. No quantum storage is thereby required for the honest parties. Examples of such protocols include bit commitment, oblivious transfer and secure identification. Here, we provide a guideline for the practical implementation of such protocols. In particular, we analyze security in a practical setting where the honest parties themselves are unable to perform perfect operations and need to deal with practical problems such as errors during transmission and detector inefficiencies. We provide explicit security parameters for two different experimental setups using weak coherent, and parametric down conversion sources. In addition, we analyze a modification of the protocols based on decoy states.},
+  Abstract                 = {The noisy-storage model allows the implementation of secure two-party protocols under the sole assumption that no large-scale reliable quantum storage is available to the cheating party. No quantum storage is thereby required for the honest parties. Examples of such protocols include bit commitment, oblivious transfer and secure identification. Here, we provide a guideline for the practical implementation of such protocols. In particular, we analyze security in a practical setting where the honest parties themselves are unable to perform perfect operations and need to deal with practical problems such as errors during transmission and detector inefficiencies. We provide explicit security parameters for two different experimental setups using weak coherent, and parametric down conversion sources. In addition, we analyze a modification of the protocols based on decoy states.},
   Archiveprefix            = {arXiv},
   Arxivid                  = {0911.2302},
   Doi                      = {10.1103/PhysRevA.81.052336},

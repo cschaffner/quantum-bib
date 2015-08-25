@@ -38,8 +38,8 @@ Congrats, you can now properly compile your .tex files as usual:
 5. commit your changes
 
   ```
-  ~/mypaper $ git add quantum-bib/bibtex/bib/quantum.bib
-  ~/mypaper $ git commit -m 'added references'
+  ~/mypaper> git add quantum-bib/bibtex/bib/quantum.bib
+  ~/mypaper> git commit -m 'added references'
   ```
 6. submit a [pull request](https://help.github.com/articles/using-pull-requests/) 
 

@@ -59,8 +59,12 @@ You can now [sync](https://help.github.com/articles/syncing-a-fork/) other peopl
 
 ##Repository contents:
 - `/bibtex/bib/quantum.bib`  contains the bib entries
+- `/bibtex/bib/full.bib`     contains full journal names
+- `/bibtex/bib/abbr.bib`     contains abbreviated journal names
 
-- `test.tex` a tex file for testing all references
+- `testabbr.tex` a tex file for testing all abbreviated references
+- `testfull.tex` a tex file for testing all full references
+- 'allrefs.tex'  a tex file containing all citation keys
 - `/jabref/jabref-preferences` contains some useful [JabRef](http://jabref.sourceforge.net/) preferences
 
 two bib-styles by Marco Tomamichel which nicely display DOI and arxiv links:

@@ -1,4 +1,4 @@
-##Formatting conventions
+## Formatting conventions
 * The *citation-key* ("GM84" in the first example below) is the same as in the alpha style, so first letters of up to four authors, together with two digits of the publication year. In case of five or more others, it's the first three authors followed by a '+'. In [JabRef](http://jabref.sourceforge.net/), this corresponds to the `[authorsAlpha][shortyear]` setting.
 * Full names of authors with proper latex spelling including special characters should be provided
 
@@ -6,7 +6,7 @@ See [here](https://en.wikipedia.org/wiki/BibTeX#Entry_types) for a list of possi
 
 
 
-###Example entry for @article
+### Example entry for @article
 ```
 @Article{GM84,
 Title = {{Probabilistic encryption}},
@@ -47,7 +47,7 @@ Ignored fields: (if they are included, they should be correct)
 * issn
 * abstract
 
-###Example entry for @inproceedings
+### Example entry for @inproceedings
 ```
 @InProceedings{Unr12,
 Title = {{Quantum Proofs of Knowledge}},
@@ -86,7 +86,7 @@ Ignored fields: (if they are included, they should be correct)
 * abstract
 
 
-###Example entry for @book
+### Example entry for @book
 ```
 @Book{BBD09,
 Title = {{Post-Quantum Cryptography}},
